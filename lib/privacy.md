@@ -163,7 +163,7 @@ Depending on your region, you may have the right to:
 * Opt out of optional permissions
 
 For any requests, contact:
-📧 **[support@macaron.ai](mailto:gurujifinder0@gmail.com)**
+📧 **[gurujifinder0@gmail.com](mailto:gurujifinder0@gmail.com)**
 
 ---
 
@@ -178,7 +178,7 @@ If we make significant changes, we will notify users within the App.
 
 If you have questions, feedback, or privacy concerns, you may contact us at:
 
-📧 **[support@macaron.ai](mailto:gurujifinder0@gmail.com)**
+📧 **[gurujifinder0@gmail.com](mailto:gurujifinder0@gmail.com)**
 📍 Macaron AI Tools Developer
 
 
