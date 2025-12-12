@@ -140,7 +140,7 @@ Your email account data (used for login) is retained until you request deletion.
 
 ## **9. Children’s Privacy**
 
-Macaron AI Tools is **not intended for users under 18**, and we do not knowingly collect personal data from minors.
+Macaron AI Tools is **not intended for users under 12**, and we do not knowingly collect personal data from minors.
 
 If you believe a minor has created an account or submitted data, please contact us so we can take appropriate action.
 
