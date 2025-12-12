@@ -12,6 +12,7 @@ import {
   Smartphone
 } from 'lucide-react'
 import Link from 'next/link'
+import Image from 'next/image'
 
 export default function Home() {
   const [isVisible, setIsVisible] = useState(false)
@@ -26,9 +27,13 @@ export default function Home() {
       <nav className="fixed top-0 left-0 right-0 z-50 px-6 py-4">
         <div className="max-w-6xl mx-auto flex items-center justify-between">
           <div className="flex items-center gap-2">
-            <div className="w-10 h-10 rounded-2xl bg-gradient-to-br from-macaron-pink via-macaron-lavender to-macaron-mint flex items-center justify-center shadow-lg">
-              <span className="text-white font-bold text-lg">M</span>
-            </div>
+            <Image
+              src="/images/playstore.png"
+              alt="Macaron Logo"
+              width={40}
+              height={40}
+              className="w-10 h-10 rounded-2xl shadow-lg"
+            />
             <span className="font-display font-bold text-xl text-gray-800">Macaron</span>
           </div>
           <div className="flex items-center gap-4">
@@ -182,40 +187,40 @@ export default function Home() {
           <div className="flex flex-col md:flex-row items-center justify-center gap-8 md:gap-12">
             {/* Left Phone */}
             <div className="phone-mockup w-[280px] transform md:-rotate-6 hover:rotate-0 transition-transform duration-500">
-              <div className="phone-screen aspect-[9/19.5] bg-gradient-to-br from-macaron-cream to-macaron-rose flex items-center justify-center">
-                <div className="text-center p-4">
-                  <div className="w-16 h-16 mx-auto mb-4 rounded-2xl bg-gradient-to-br from-macaron-pink to-macaron-lilac flex items-center justify-center">
-                    <Sparkles className="w-8 h-8 text-white" />
-                  </div>
-                  <p className="text-gray-500 text-sm">Screenshot 1</p>
-                  <p className="text-gray-400 text-xs mt-1">Replace with your app screenshot</p>
-                </div>
+              <div className="phone-screen aspect-[9/19.5] overflow-hidden">
+                <Image
+                  src="/images/left.png"
+                  alt="App Screenshot Left"
+                  width={280}
+                  height={607}
+                  className="w-full h-full object-cover"
+                />
               </div>
             </div>
 
             {/* Center Phone (Featured) */}
             <div className="phone-mockup w-[300px] md:w-[320px] transform scale-105 z-10 hover:scale-110 transition-transform duration-500">
-              <div className="phone-screen aspect-[9/19.5] bg-gradient-to-br from-macaron-mint to-macaron-sky flex items-center justify-center">
-                <div className="text-center p-4">
-                  <div className="w-20 h-20 mx-auto mb-4 rounded-3xl bg-gradient-to-br from-macaron-coral to-macaron-pink flex items-center justify-center">
-                    <Heart className="w-10 h-10 text-white" />
-                  </div>
-                  <p className="text-gray-500 text-sm">Screenshot 2</p>
-                  <p className="text-gray-400 text-xs mt-1">Replace with your app screenshot</p>
-                </div>
+              <div className="phone-screen aspect-[9/19.5] overflow-hidden">
+                <Image
+                  src="/images/center.png"
+                  alt="App Screenshot Center"
+                  width={320}
+                  height={693}
+                  className="w-full h-full object-cover"
+                />
               </div>
             </div>
 
             {/* Right Phone */}
             <div className="phone-mockup w-[280px] transform md:rotate-6 hover:rotate-0 transition-transform duration-500">
-              <div className="phone-screen aspect-[9/19.5] bg-gradient-to-br from-macaron-lavender to-macaron-lilac flex items-center justify-center">
-                <div className="text-center p-4">
-                  <div className="w-16 h-16 mx-auto mb-4 rounded-2xl bg-gradient-to-br from-macaron-mint to-macaron-sage flex items-center justify-center">
-                    <Zap className="w-8 h-8 text-white" />
-                  </div>
-                  <p className="text-gray-500 text-sm">Screenshot 3</p>
-                  <p className="text-gray-400 text-xs mt-1">Replace with your app screenshot</p>
-                </div>
+              <div className="phone-screen aspect-[9/19.5] overflow-hidden">
+                <Image
+                  src="/images/right.png"
+                  alt="App Screenshot Right"
+                  width={280}
+                  height={607}
+                  className="w-full h-full object-cover"
+                />
               </div>
             </div>
           </div>
@@ -231,9 +236,13 @@ export default function Home() {
             <div className="absolute -bottom-20 -left-20 w-40 h-40 rounded-full bg-macaron-mint/30 blur-3xl" />
             
             <div className="relative">
-              <div className="w-20 h-20 mx-auto mb-6 rounded-3xl bg-gradient-to-br from-macaron-pink via-macaron-lavender to-macaron-mint flex items-center justify-center shadow-xl">
-                <span className="text-white font-bold text-3xl">M</span>
-              </div>
+              <Image
+                src="/images/playstore.png"
+                alt="Macaron Logo"
+                width={80}
+                height={80}
+                className="w-20 h-20 mx-auto mb-6 rounded-3xl shadow-xl"
+              />
               
               <h2 className="font-display text-3xl md:text-4xl font-bold text-gray-900 mb-4">
                 Ready to get started?
@@ -241,6 +250,48 @@ export default function Home() {
               <p className="text-lg text-gray-600 mb-8 max-w-lg mx-auto">
                 Download Macaron AI Tools now and discover a world of AI-powered inspirations at your fingertips.
               </p>
+
+              {/* App Screenshots */}
+              <div className="flex items-end justify-center gap-4 md:gap-6 mb-10">
+                {/* Left Phone */}
+                <div className="phone-mockup w-[100px] md:w-[140px] transform -rotate-6 hover:rotate-0 transition-transform duration-500">
+                  <div className="phone-screen aspect-[9/19.5] overflow-hidden">
+                    <Image
+                      src="/images/left.png"
+                      alt="App Screenshot Left"
+                      width={280}
+                      height={607}
+                      className="w-full h-full object-cover"
+                    />
+                  </div>
+                </div>
+
+                {/* Center Phone (Featured) */}
+                <div className="phone-mockup w-[120px] md:w-[160px] transform scale-105 z-10 hover:scale-110 transition-transform duration-500">
+                  <div className="phone-screen aspect-[9/19.5] overflow-hidden">
+                    <Image
+                      src="/images/center.png"
+                      alt="App Screenshot Center"
+                      width={320}
+                      height={693}
+                      className="w-full h-full object-cover"
+                    />
+                  </div>
+                </div>
+
+                {/* Right Phone */}
+                <div className="phone-mockup w-[100px] md:w-[140px] transform rotate-6 hover:rotate-0 transition-transform duration-500">
+                  <div className="phone-screen aspect-[9/19.5] overflow-hidden">
+                    <Image
+                      src="/images/right.png"
+                      alt="App Screenshot Right"
+                      width={280}
+                      height={607}
+                      className="w-full h-full object-cover"
+                    />
+                  </div>
+                </div>
+              </div>
 
               {/* Download Buttons */}
               <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
@@ -280,9 +331,13 @@ export default function Home() {
           <div className="flex flex-col md:flex-row items-center justify-between gap-6">
             {/* Logo */}
             <div className="flex items-center gap-2">
-              <div className="w-8 h-8 rounded-xl bg-gradient-to-br from-macaron-pink via-macaron-lavender to-macaron-mint flex items-center justify-center">
-                <span className="text-white font-bold text-sm">M</span>
-              </div>
+              <Image
+                src="/images/playstore.png"
+                alt="Macaron Logo"
+                width={32}
+                height={32}
+                className="w-8 h-8 rounded-xl"
+              />
               <span className="font-display font-bold text-gray-800">Macaron AI Tools</span>
             </div>
 
