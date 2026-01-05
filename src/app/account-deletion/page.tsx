@@ -115,7 +115,7 @@ export default function AccountDeletionPage() {
               <p className="text-gray-600">
                 If you are unable to delete your account through the app, or if you have any questions, please contact our support team at:
                 <br />
-                <a href="mailto:support@macaron.ai" className="text-blue-600 hover:underline font-medium">support@macaron.ai</a>
+                <a href="mailto:contact@macaron.im" className="text-blue-600 hover:underline font-medium">contact@macaron.im</a>
               </p>
             </section>
           </div>
