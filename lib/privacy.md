@@ -1,6 +1,7 @@
 # Privacy Policy
 
-**Last updated: December 12, 2025**
+**Last updated: January 5, 2026**
+
 ## **1. Introduction**
 
 Welcome to **Macaron AI Tools** (“we”, “our”, “the App”).
@@ -8,7 +9,7 @@ We are committed to protecting your privacy and being transparent about how your
 
 This Privacy Policy explains what information we collect, how we use it, and the rights you have regarding your data.
 
-Macaron AI Tools provides a variety of AI-powered mini tools to assist with everyday tasks. To deliver certain features, the App may require access to device permissions or user-provided input, but **we do not collect, store, or upload any personal data to our servers.**
+Macaron AI Tools provides a variety of AI-powered mini tools to assist with everyday tasks. To deliver certain features, the App may require access to device permissions or user-provided input. **We collect only minimal personal data (email) for account management, and do not store user-generated content on our servers.**
 
 ---
 
@@ -16,13 +17,13 @@ Macaron AI Tools provides a variety of AI-powered mini tools to assist with ever
 
 We **do NOT**:
 
-* store any personal data on external servers
-* upload files, images, audio, or text to our servers
-* collect analytics, logs, identifiers, or device information
+* store user-generated content (images, text, audio) on external servers
+* upload files, images, audio, or text to our servers for permanent storage
+* collect analytics, logs, identifiers, or device information for tracking purposes
 * share data with third parties for marketing or advertising
-* use Google Play Services, Firebase, or similar SDKs
+* use Google Play Services, Firebase, or similar SDKs for tracking
 
-All user-generated content remains **on the device** or is sent **only to the third-party AI service selected for the tool’s functionality**, never to us.
+All user-generated content remains **on the device** or is sent **only to the third-party AI service selected for the tool’s functionality**, never to us for retention.
 
 ---
 
@@ -39,7 +40,7 @@ To use certain AI tools, you may voluntarily provide:
 ### **Important:**
 
 * These inputs are used **only for the specific function you choose**.
-* They are **not stored**, **not retained**, and **not uploaded** to any Macaron AI Tools server (because we do not operate one).
+* They are **not stored**, **not retained**, and **not uploaded** to any Macaron AI Tools server (because we do not operate one for content storage).
 
 ---
 
@@ -134,11 +135,32 @@ All processing occurs:
 
 Once processing is complete, the data is discarded.
 
-Your email account data (used for login) is retained until you request deletion.
+**Account Data:** Your email address and authentication details are retained as long as your account is active. You may request deletion at any time.
 
 ---
 
-## **9. Children’s Privacy**
+## **9. Account Deletion**
+
+You have the right to delete your account and all associated data at any time.
+
+### **How to Delete Your Account:**
+
+1.  **In-App:** Go to **Settings** > **Account** > **Delete Account**.
+2.  **Web Request:** Visit our [Account Deletion Page](/account-deletion) to view instructions or submit a request.
+
+### **What Will Be Deleted:**
+
+*   **Account Information:** Your email address and profile data will be permanently removed from our authentication system.
+*   **User Preferences:** Any saved settings or preferences associated with your account.
+
+### **Retention Period:**
+
+*   Data is deleted **immediately** upon confirmation of your request.
+*   In some cases, it may take up to **30 days** to completely remove data from backup systems.
+
+---
+
+## **10. Children’s Privacy**
 
 Macaron AI Tools is **not intended for users under 12**, and we do not knowingly collect personal data from minors.
 
@@ -146,14 +168,14 @@ If you believe a minor has created an account or submitted data, please contact 
 
 ---
 
-## **10. Security**
+## **11. Security**
 
 We implement reasonable security measures to protect your account information (email login).
 Since we do not store user-generated content, the risks associated with stored personal data are significantly reduced.
 
 ---
 
-## **11. Your Rights**
+## **12. Your Rights**
 
 Depending on your region, you may have the right to:
 
@@ -167,14 +189,14 @@ For any requests, contact:
 
 ---
 
-## **12. Changes to This Privacy Policy**
+## **13. Changes to This Privacy Policy**
 
 We may update this Privacy Policy occasionally.
 If we make significant changes, we will notify users within the App.
 
 ---
 
-## **13. Contact Us**
+## **14. Contact Us**
 
 If you have questions, feedback, or privacy concerns, you may contact us at:
 

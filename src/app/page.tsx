@@ -346,6 +346,9 @@ export default function Home() {
               <Link href="/privacy" className="text-gray-600 hover:text-gray-900 transition-colors">
                 Privacy Policy
               </Link>
+              <Link href="/account-deletion" className="text-gray-600 hover:text-gray-900 transition-colors">
+                Account Deletion
+              </Link>
               <a href="mailto:gurujifinder0@gmail.com" className="text-gray-600 hover:text-gray-900 transition-colors">
                 Contact
               </a>
