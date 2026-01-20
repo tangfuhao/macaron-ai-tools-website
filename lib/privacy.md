@@ -19,11 +19,10 @@ We **do NOT**:
 
 * store user-generated content (images, text, audio) on external servers
 * upload files, images, audio, or text to our servers for permanent storage
-* collect analytics, logs, identifiers, or device information for tracking purposes
-* share data with third parties for marketing or advertising
-* use Google Play Services, Firebase, or similar SDKs for tracking
+* share your personal content with third parties for marketing or advertising
+* sell your personal information to any third party
 
-All user-generated content remains **on the device** or is sent **only to the third-party AI service selected for the tool’s functionality**, never to us for retention.
+All user-generated content remains **on the device** or is sent **only to the third-party AI service selected for the tool's functionality**, never to us for retention.
 
 ---
 
@@ -44,7 +43,24 @@ To use certain AI tools, you may voluntarily provide:
 
 ---
 
-## **4. Third-Party AI Services**
+## **4. Information Collected Automatically**
+
+When you use the App, certain information may be collected automatically for analytics and advertising attribution purposes:
+
+* **Device Identifiers**: Advertising ID (Google Advertising ID on Android, IDFA on iOS)
+* **Device Information**: Device type, model, operating system, and version
+* **App Usage Data**: App install events, app opens, and session information
+* **Network Information**: IP address (used for approximate location at country/region level)
+
+This data is collected through our analytics partner **AppsFlyer** (see Section 6 for details) and is used to:
+
+* Measure marketing campaign effectiveness
+* Understand user acquisition channels
+* Improve our services
+
+---
+
+## **5. Third-Party AI Services**
 
 To provide AI functionality, your inputs may be sent to **trusted third-party AI providers** (e.g., language model or image model APIs).
 
@@ -65,7 +81,41 @@ You should review the privacy policies of the third-party AI service used in the
 
 ---
 
-## **5. Device Permissions**
+## **6. Mobile Analytics & Advertising Attribution (AppsFlyer)**
+
+We use **AppsFlyer**, a third-party mobile measurement partner, to help us understand how users discover and install our App.
+
+### **What AppsFlyer Collects:**
+
+* **Advertising Identifiers**: Google Advertising ID (GAID) on Android, Identifier for Advertisers (IDFA) on iOS
+* **Device Information**: Device model, operating system version, language settings
+* **App Events**: Install events, app opens, and attribution data
+* **IP Address**: Used for approximate geographic location (country/region level)
+
+### **Purpose of Data Collection:**
+
+* Measure the effectiveness of our advertising campaigns
+* Understand which marketing channels drive app installs
+* Improve our marketing strategies and user acquisition efforts
+* Fraud prevention and detection
+
+### **Data Sharing:**
+
+AppsFlyer may share attribution data with our advertising partners solely for the purpose of measuring campaign performance. This data does **not** include your personal content, email, or any user-generated data within the App.
+
+### **Your Choices (Opt-Out):**
+
+You have the right to opt out of personalized advertising and tracking:
+
+* **On Android**: Go to **Settings** > **Google** > **Ads** > Enable "**Opt out of Ads Personalization**"
+* **On iOS**: Go to **Settings** > **Privacy & Security** > **Tracking** > Disable "**Allow Apps to Request to Track**"
+* **AppsFlyer Opt-Out**: You can opt out of AppsFlyer tracking by visiting: [https://www.appsflyer.com/optout](https://www.appsflyer.com/optout)
+
+For more information about AppsFlyer's data practices, please review their Privacy Policy at: [https://www.appsflyer.com/privacy-policy/](https://www.appsflyer.com/privacy-policy/)
+
+---
+
+## **7. Device Permissions**
 
 The App may request access to the following permissions **only when required**:
 
@@ -96,7 +146,7 @@ We never collect or upload permission-based data.
 
 ---
 
-## **6. Account Information**
+## **8. Account Information**
 
 To use the App, you may register and log in with an **email address**.
 
@@ -116,16 +166,19 @@ Authentication data is used solely for enabling account-based usage and does not
 
 ---
 
-## **7. No Advertising & No Data Sharing**
+## **9. Advertising & Data Sharing**
 
-* We do **not** display ads.
-* We do **not** share any data with advertising partners.
-* We do **not** sell personal information.
-* We do **not** share any data with third parties except the third-party AI provider selected for the tool’s functionality.
+* We do **not** display ads within the App.
+* We do **not** sell your personal information.
+* We use **AppsFlyer** for advertising attribution and campaign measurement (see Section 6 for details).
+* We share limited attribution data with advertising partners **only** for measuring campaign performance.
+* We do **not** share your user-generated content, email, or personal data with any third parties except:
+  * Third-party AI providers for tool functionality
+  * AppsFlyer for advertising attribution
 
 ---
 
-## **8. Data Retention**
+## **10. Data Retention**
 
 We do **not** retain any of your content (images, text, audio, location, files).
 All processing occurs:
@@ -139,7 +192,7 @@ Once processing is complete, the data is discarded.
 
 ---
 
-## **9. Account Deletion**
+## **11. Account Deletion**
 
 You have the right to delete your account and all associated data at any time.
 
@@ -160,7 +213,7 @@ You have the right to delete your account and all associated data at any time.
 
 ---
 
-## **10. Children’s Privacy**
+## **12. Children's Privacy**
 
 Macaron AI Tools is **not intended for users under 12**, and we do not knowingly collect personal data from minors.
 
@@ -168,14 +221,14 @@ If you believe a minor has created an account or submitted data, please contact 
 
 ---
 
-## **11. Security**
+## **13. Security**
 
 We implement reasonable security measures to protect your account information (email login).
 Since we do not store user-generated content, the risks associated with stored personal data are significantly reduced.
 
 ---
 
-## **12. Your Rights**
+## **14. Your Rights**
 
 Depending on your region, you may have the right to:
 
@@ -183,20 +236,21 @@ Depending on your region, you may have the right to:
 * Delete your account
 * Request removal of all associated login data
 * Opt out of optional permissions
+* **Opt out of personalized advertising and tracking** (see Section 6 for detailed instructions)
 
 For any requests, contact:
 📧 **[gurujifinder0@gmail.com](mailto:gurujifinder0@gmail.com)**
 
 ---
 
-## **13. Changes to This Privacy Policy**
+## **15. Changes to This Privacy Policy**
 
 We may update this Privacy Policy occasionally.
 If we make significant changes, we will notify users within the App.
 
 ---
 
-## **14. Contact Us**
+## **16. Contact Us**
 
 If you have questions, feedback, or privacy concerns, you may contact us at:
 
